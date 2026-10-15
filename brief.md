@@ -20,10 +20,19 @@ Android keeps every app in its own sandbox, so the login app can’t use sensiti
 Resource: Request runtime permissions  |  Privacy  |  Android Developers
 
 ## Networking
+DNS over HTTPS (DoH) sends DNS requests and answers through an encrypted HTTPS connection. For users of the service, this stops people on the network, like an internet provider, from easily seeing or changing their DNS requests. But it does not protect everything. The DoH provider can still see the requests. It does not encrypt all internet traffic, it does not hide the user’s IP address from websites, and it does not stop phishing or tracking by itself.
+
+Resource: RFC 9076: DNS Privacy Considerations | RFC Editor
 
 ## Cybersecurity
+A phishing-resistant method stops an attacker from using stolen login information on a fake website, even if the user is tricked into opening it. It works by tying the login to the real website or the secure connection. Methods that qualify are FIDO2/WebAuthn passkeys, FIDO2 security keys, and properly set up PIV/CAC smart cards. Methods that do not qualify are a password with an SMS code, email code, or authenticator-app code, and simple push approval, because an attacker can pass the code on to the real website.
+
+Resource: Authenticators
 
 ## Data
+Oman’s Personal Data Protection Law (Royal Decree 6/2022) does not directly cover government units. They follow the Personal Data Protection Policy (Circular 6/2024). Because Article 3 has exceptions, the legal team should confirm which rules apply. The authority should collect only needed data, say why it is collected, protect stored data from leaks, and let citizens see and correct their data. It must also follow the rules for storing, sharing, keeping data, and handling breaches.
+
+Resource: Governance - Personal Data Protection | MTCIT
 
 ## Misconception in My Track
 
