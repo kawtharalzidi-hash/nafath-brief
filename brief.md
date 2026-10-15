@@ -35,7 +35,7 @@ Oman’s Personal Data Protection Law (Royal Decree 6/2022) does not directly co
 Resource: Governance - Personal Data Protection | MTCIT
 
 ## Misconception in My Track
-A common wrong belief is that DNS over HTTPS (DoH) makes the user fully private online, so using it means nobody can see what the user is doing. This is not right. DoH only encrypts the DNS requests, so people on the network, like an internet provider, cannot easily see or change them. But the DoH provider can still see the requests. It also does not encrypt all internet traffic, does not hide the user’s IP address from websites, and does not stop phishing or tracking by itself. The proof is in the RFC 9076 resource, DNS Privacy Considerations, which explains what DoH protects and what it does not.
+A common wrong belief is that DNS over HTTPS (DoH) makes the user fully private online, so using it means nobody can see what the user is doing. This is not right. DoH only encrypts the DNS requests, so people on the network, like an internet provider, cannot easily see or change them. But the DoH provider can still see the requests. It also does not encrypt all internet traffic, does not hide the user’s IP address from websites, and does not stop phishing or tracking by itself. DNS Privacy Considerations, which explains what DoH protects and what it does not.
 
 ## Open Question
 How can the authority test the AI model and the login methods before launch, so they work correctly, keep citizens' personal information safe, and catch unusual logins without blocking real users?
